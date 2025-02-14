@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>iPhoneVideoPro</title>
+        <meta
+            name="description"
+            content="Knight is a beautiful Bootstrap 4 template for product landing pages."
+        />
+
+        <!--Inter UI font-->
+        <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="img/favicon.png" />
+
+        <!--vendors styles-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        />
+
+        <!-- Bootstrap CSS / Color Scheme -->
+        <link rel="stylesheet" href="css/default.css" id="theme-color" />
+    </head>
+    <body>
+        <!--navigation-->
+        <section class="smart-scroll">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand heading-black" href="index.html">
+                        iPhoneVideoPro
+                    </a>
+                    <button
+                        class="navbar-toggler navbar-toggler-right border-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span data-feather="grid"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="index.html"
+                                    >Главная</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="about.html"
+                                    >О нас</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link page-scroll" href="faq.html"
+                                    >FAQ</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="services.html"
+                                    >Услуги</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="contact.html"
+                                    >Контакты</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section-bg wow fadeInUp">
+            <div class="container">
+                <div class="section-header">
+                    <h3>Свяжитесь с нами</h3>
+                    <p>
+                        Мы здесь, чтобы помочь вам! Если у вас есть вопросы или
+                        предложения по теме обучения съемке видео на iPhone для
+                        продвижения в SMM, не стесняйтесь обращаться. Мы рады
+                        помочь вам создать эффективный план продвижения и
+                        визуальный контент для социальных сетей.
+                    </p>
+                </div>
+
+                <div class="row contact-info">
+                    <div class="map col-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.4774086056705!2d76.90584808327725!3d43.24702041666089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883693b19bb0355%3A0xeeba87f4a2d24573!2sStudio%207%20Almaty!5e0!3m2!1suk!2sua!4v1739535846677!5m2!1suk!2sua"
+                            width="100%"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                    <div class="form col-7">
+                        <div id="sendmessage">
+                            Ваше сообщение отправлено. Спасибо!
+                        </div>
+                        <div id="errormessage"></div>
+                        <form
+                            action="thanks.html"
+                            method="get"
+                            role="form"
+                            class="contactForm"
+                        >
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        class="form-control"
+                                        id="name"
+                                        placeholder="Ваше имя"
+                                        data-rule="minlen:4"
+                                        data-msg="Введите минимум 4 символа"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Ваша почта"
+                                        data-rule="email"
+                                        data-msg="Введите действующий адрес электронной почты"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Тема"
+                                    data-rule="minlen:4"
+                                    data-msg="Введите минимум 8 символов"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <textarea
+                                    class="form-control"
+                                    name="message"
+                                    rows="5"
+                                    data-rule="required"
+                                    data-msg="Пожалуйста, напишите что-то для нас"
+                                    placeholder="Сообщение"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">
+                                Отправить сообщение
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- #contact -->
+
+        <!--footer-->
+        <footer class="py-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 mr-auto">
+                        <h5>О iPhoneVideoPro</h5>
+                        <p class="text-muted">
+                            Мы - команда разработчиков, которая предлагает
+                            онлайн-обучение по созданию видео на iPhone для
+                            продвижения в SMM. Мы помогаем создать эффективный
+                            план продвижения с помощью визуального контента.
+                        </p>
+                        <ul class="list-inline social social-sm">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/"
+                                    ><i class="fa fa-facebook"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://x.com/"
+                                    ><i class="fa fa-twitter"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.google.com/"
+                                    ><i class="fa fa-google-plus"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://dribbble.com/"
+                                    ><i class="fa fa-dribbble"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Юридическая информация</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Контактный адрес</a
+                                >
+                            </li>
+                            <li>
+                                <a href="terms-of-use.html">+77078655542</a>
+                            </li>
+                            <li><a href="">iphone_videopro@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Ссылки</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies для улучшения вашего опыта
+                    работы с сайтом.
+                    <a href="privacy-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!--scroll to top-->
+        <div class="scroll-top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
